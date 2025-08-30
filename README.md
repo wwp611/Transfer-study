@@ -1,0 +1,1 @@
+It is an interesting work about transfer learning, and it is a copy work from artical "Accelerated Multi-Property Screening of Lead-Free Halide Double Perovskite via Transfer Learning" reported by Yiwei Wei, Jingjin He et al.
