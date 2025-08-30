@@ -1,0 +1,24 @@
+{
+    "k_folds": 10,
+    "epochs": 300,
+    "learning_rate": 0.0001,
+    "batch_size": 51,
+    "weight_decay": 0.0,
+    "dropout_rate": 0.5,
+    "early_stopping_patience": 50,
+    "early_stopping_min_delta": 0.001,
+    "average_validation_rmse_across_folds": 17.031585282881917,
+    "all_fold_best_val_rmses": [
+        14.074074013098405,
+        25.371771846692635,
+        14.525405725797247,
+        6.38329299369529,
+        9.276822764976863,
+        28.145906942870376,
+        9.951518984684652,
+        36.66149625447913,
+        2.452744861476478,
+        23.47281844104807
+    ],
+    "overall_best_validation_rmse_during_kfold": 2.452744861476478
+}

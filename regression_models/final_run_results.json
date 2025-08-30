@@ -1,0 +1,11 @@
+{
+    "used_hyperparameters": {
+        "learning_rate": 0.001,
+        "batch_size": 64,
+        "dropout_rate": 0.2,
+        "epochs": 100
+    },
+    "best_kfold_validation_rmse": 0.07487705927971965,
+    "final_test_rmse": 0.0908992093220283,
+    "final_test_r2": 0.9860189558675354
+}

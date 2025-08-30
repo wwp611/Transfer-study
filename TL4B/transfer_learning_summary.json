@@ -1,0 +1,34 @@
+{
+    "transfer_learning_hyperparameters": {
+        "learning_rate": 0.0001,
+        "epochs": 20000,
+        "batch_size": 12,
+        "dropout_rate": 0.5,
+        "weight_decay": 0.005,
+        "early_stopping_patience": 20,
+        "early_stopping_min_delta": 0.001,
+        "layers_frozen_count": 2
+    },
+    "kfold_cross_validation_results": {
+        "num_folds": 10,
+        "overall_best_validation_rmse_during_kfold": 6.548024807201972,
+        "final_validation_rmses_per_fold": [
+            6.666147529734366,
+            19.172316716335676,
+            12.630178465922588,
+            14.811469834958142,
+            38.92594726037104,
+            33.15963328049445,
+            28.189009192552557,
+            20.017924859331153,
+            41.59365608554386,
+            30.516755051400658
+        ]
+    },
+    "final_test_set_evaluation": {
+        "test_set_fraction": 0.2,
+        "final_test_rmse": 11.907032851188196,
+        "final_test_r2": 0.35449017197349997
+    },
+    "pretrained_model_loaded_from": "/mnt/c/Users/18769/Desktop/Transform Learning/regression_models/best_trained_model_weights.pth"
+}
